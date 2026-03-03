@@ -1,0 +1,40 @@
+title: "Traction Playbook"
+description: "19 actionable growth channel playbooks for startups. Based on Traction by Gabriel Weinberg & Justin Mares."
+remote_theme: just-the-docs/just-the-docs@v0.10.0
+url: "https://farosud.github.io"
+baseurl: "/traction-playbook"
+
+color_scheme: dark
+
+aux_links:
+  "GitHub":
+    - "https://github.com/farosud/traction-playbook"
+
+nav_enabled: true
+search_enabled: true
+search.heading_level: 3
+
+heading_anchors: true
+
+back_to_top: true
+back_to_top_text: "Back to top"
+
+footer_content: "Built with Hermes Agent. Based on <a href=\"https://www.amazon.com/Traction-Startup-Achieve-Explosive-Customer/dp/1591848369\">Traction</a> by Gabriel Weinberg & Justin Mares."
+
+callouts:
+  tip:
+    title: Tip
+    color: green
+  warning:
+    title: Warning
+    color: yellow
+  important:
+    title: Important
+    color: red
+
+plugins:
+  - jekyll-seo-tag
+
+exclude:
+  - README.md
+  - LICENSE
